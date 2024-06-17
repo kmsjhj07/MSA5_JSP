@@ -1,0 +1,13 @@
+
+4월 05, 2024 20:52:29.19 NEW SESSION
+4월 05, 2024 20:52:29.19 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 05, 2024 21:17:51.70 [22340:22016:0405/211751.702:ERROR:device_event_log_impl.cc(195)] [21:17:51.701] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 05, 2024 21:17:51.72 [22340:22016:0405/211751.719:ERROR:device_event_log_impl.cc(195)] [21:17:51.719] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+4월 05, 2024 21:17:52.92 [22340:22016:0405/211752.929:ERROR:device_event_log_impl.cc(195)] [21:17:52.928] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 05, 2024 21:17:52.93 [22340:22016:0405/211752.934:ERROR:device_event_log_impl.cc(195)] [21:17:52.932] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+
+4월 08, 2024 09:30:48.13 NEW SESSION
+4월 08, 2024 09:30:48.14 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 08, 2024 09:33:53.85 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 08, 2024 09:50:04.28 [30288:5248:0408/095004.279:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 08, 2024 10:43:13.72 [30288:5248:0408/104313.723:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost

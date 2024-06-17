@@ -1,0 +1,361 @@
+/* ======================================================================== */
+/* style.css 파일 내용 */
+.modal {
+    display: none; /* 기본적으로 숨김 */
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.food-image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+
+/* ======================================================================== */
+
+
+/* 모달 스타일 */ 
+.modal {
+    display: none; /* 처음에는 숨겨져 있음 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* 반투명 검은색 배경 */
+}
+
+/* 모달 내용 스타일 */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 화면 중앙에 위치 */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* 내용 너비는 전체의 80% */
+}
+
+#detail-img-box {
+	text-align: center;
+}
+
+img {
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+#detail-count {
+	width: 15%;
+	background-color: white;
+	color: black;
+}
+
+#product-detail-name {
+	margin: 15px;
+	text-align: center;
+}
+#product-detail-price {
+	text-align: right;
+}
+
+#detail-plus {
+	background-color: black;
+	color: white;
+}
+
+#detail-minus {
+	background-color: white;
+	color: black;
+}
+
+.modal-footer {
+  text-align: center;
+  padding: 2px 16px;
+  background-color: black;
+  color: white;
+}
+.pop-btn {
+	display: inline-block;
+	width: 45%;
+}
+
+/* 닫기 버튼 스타일 */
+.closeBtn {
+    color: #aaaaaa;
+    float: right; /* 오른쪽 상단에 위치 */
+    font-size: 28px; /* 크기 조정 */
+    font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #000; /* 마우스 오버 시 색상 변경 */
+    text-decoration: none;
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+
+/* ======================================================================== */
+/* 사용설명서 이미지 파일 CSS */
+.info {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: bottom; /* 수직 중앙 정렬 */
+    height: 80vh; /* 부모 요소의 높이를 뷰포트의 100%로 설정 */
+}
+/* ======================================================================== */
+
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8; /* 스크린샷의 배경색에 맞게 설정 */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 상단 그림자 효과 */
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* 스크린샷의 텍스트 색상에 맞게 설정 */
+}
+
+.footer-icon {
+    width: 24px; /* 아이콘 크기 설정 */
+    height: auto; /* 비율 유지 */
+    margin-bottom: 4px; /* 아이콘과 텍스트 사이 간격 */
+}
+/* ======================================================================== */
+
+/* 하단 컨텐츠 영역 스타일 */
+/* 바닥글에 직전에 나타나는 주문 요약 섹션 */
+.order-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* 배경색 */
+}
+
+.order-summary div, 
+.order-summary p {
+    margin: 0; /* 기본 마진 제거 */
+    padding: 0 10px; /* 내부 패딩 */
+}
+/* 수량과 금액 정보를 포함하는 섹션 */
+.order-info {
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+}
+
+.order-button {
+    padding: 10px 20px;
+    background-color: #000; /* 배경색: 검정 */
+    color: #fff; /* 텍스트 색상: 흰색 */
+    text-align: center;
+    cursor: pointer; /* 커서를 포인터로 변경 */
+     border: none; /* 테두리 제거 */
+}
+
+.footer2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 70px; /* 화면 하단에 위치 */
+    background-color: #333; /* 푸터 배경색 */
+    color: black; /* 푸터 텍스트 색상 */
+    /*padding: 15px 0; /* 푸터 내부 여백 */
+    z-index: 10; /* 필요에 따라 z-index 조정 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+/* ======================================================================== */
+
+
+/* 헤더 고유 스타일 */
+/* 메인 헤더: 메뉴판 제목 스타일 */
+.main-header {
+    position: fixed; /* 고정 위치 */
+    top: 0; /* 상단에서 0px의 위치 */
+    left: 0; /* 왼쪽에서 0px의 위치 */
+    width: 100%; /* 전체 너비 */
+    background-color: #f8f8f8; /* 배경 색상 */
+    color: #333; /* 글자 색상 */
+    text-align: center; /* 가운데 정렬 */
+    padding: 10px 0; /* 상단과 하단의 패딩 */
+    z-index: 999; /* 네비게이션 바 뒤에 나타나도록 z-index 설정 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 하단 그림자 효과 */
+  }
+  
+.main-header hr {
+    border: 0; /* 기본 테두리 제거 */
+    height: 1px; /* 높이 설정 */
+    background-color: #ccc; /* 배경 색상으로 테두리 색상 설정 */
+    margin-top: 0px; /* 위쪽 마진 */
+}
+
+/* 상단 네비게이션 바 스타일 */
+.header-nav {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    background-color: #333; /* 배경 색상 */
+    color: white; /* 글자 색상 */
+    padding: 10px 0; /* 상단과 하단의 패딩 */
+    position: fixed; /* 고정 위치 */
+    top: 80px; /* `main-header` 높이에 맞춰 조정 */
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-nav .nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px; /* 좌우 패딩 */
+}
+
+/* 나머지 콘텐츠가 네비게이션 바 아래에 올 수 있도록 충분한 상단 패딩을 추가합니다. */
+body {
+    padding-top: 120px; /* `main-header`와 `.header-nav` 높이의 합에 맞춰 조정*/
+}
+@media (min-width: 768px) {
+    .header-nav .header-nav-item:not(:first-child):before {
+        content: '|';
+        margin-right: 20px;
+        color: #ccc;
+    }
+}
+/* ======================================================================== */
+/* 결제 페이지 css */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.title, .subtitle {
+  text-align: center;
+}
+
+.order-details {
+  border: 1px solid #e0e0e0;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.order-header, .order-item, .total-amount {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.total-amount {
+  font-weight: bold;
+}
+
+.buttons button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.buttons .outline {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.buttons .black {
+  background: black;
+}
+/* ======================================================================== */
+/* 장바구니 CSS */
+.menu-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px; /* 카드의 너비를 설정합니다. */
+  margin: auto; /* 카드를 페이지 중앙에 배치합니다. */
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px; /* 서브타이틀과 메뉴 아이템 사이의 여백 */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 가운데 정렬 */
+  margin-bottom: 10px; /* 메뉴 아이템 간의 여백 */
+}
+
+.menu-item img {
+  width: 50px; /* 이미지의 크기를 설정합니다. */
+  height: 50px; /* 이미지의 크기를 설정합니다. */
+  margin-left: 10px; /* 이미지와 텍스트 사이의 여백을 설정합니다. */
+  border-radius: 5px; /* 이미지의 모서리를 둥글게 처리합니다. */
+}
+
+.menu-description h3 {
+  margin: 0;
+  font-size: 1em; /* 헤드라인 텍스트의 크기를 설정합니다. */
+}
+
+.menu-description p {
+  margin: 0;
+  color: #555;
+}
+
+/* ======================================================================== */

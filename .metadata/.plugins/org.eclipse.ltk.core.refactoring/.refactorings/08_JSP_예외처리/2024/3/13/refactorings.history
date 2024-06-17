@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;exception.jsp&apos; to &apos;exception.jsp&apos;&#x0D;&#x0A;- Original project: &apos;08_JSP_예외처리&apos;&#x0D;&#x0A;- Destination element: &apos;exception.jsp&apos;&#x0D;&#x0A;- Original element: &apos;exception.jsp&apos;" description="Copy file" element1="src/main/webapp/error/exception.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1711595172385" target="/08_JSP_예외처리/src/main/webapp/error/exception.jsp" units="0" version="1.0"/>
+</session>

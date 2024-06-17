@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;shop&apos;&#x0D;&#x0A;- Original project: &apos;shop&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     AuthenFilter.java&#x0D;&#x0A;     InitParamFilter.java" description="Delete elements" element1="src/main/java/filter/InitParamFilter.java" element2="src/main/java/filter/AuthenFilter.java" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1711699102906" subPackages="false" version="1.0"/>
+</session>
